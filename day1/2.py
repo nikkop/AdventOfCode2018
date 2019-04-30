@@ -10,6 +10,11 @@ with open('input.txt') as input:
             if total in frequencies:
                 frequency = total 
                 break
-            frequencies.add(total) 
+            else:
+                frequencies.add(total) 
 
     print(frequency)
+
+
+nums = (1, 2, 3, 4, 5)
+raised = 
